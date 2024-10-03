@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(48, 48, 156);
+}
+h1{
+    background-color: rgb(48, 48, 156);
+    text-align: center;
+    color: aliceblue;
+    padding: 30;
+}
+h2 {
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+h3{
+    color: rgb(48, 48, 156);
+    background-color: rgb(179, 128, 226);
+    border: 10px;
+    width: fit-content;
+    height: auto;
+    padding: 10px;
+}
+.cajas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.izquierda {
+    background-color: rgb(48, 48, 156);
+    text-align: left;
+    
+}
+.derecha {
+    background-color: rgb(48, 48, 156);
+    padding: 50px;
+}
+p {
+    color: aliceblue;
+    font-size: 18px;
+}
