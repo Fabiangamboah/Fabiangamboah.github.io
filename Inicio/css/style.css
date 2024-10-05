@@ -40,3 +40,8 @@ p {
     color: aliceblue;
     font-size: 18px;
 }
+@media(max-width: 600px) {
+    .cajas {
+    flex-direction: column;
+    }
+}
