@@ -1,47 +1,71 @@
-p{
-    color:rgb(7, 2, 2);
-    text-align: center;
-    margin: 5%;
-    font-size: 20px;
-    font-weight: bolder;
-
+body {
+    height: auto;
+    width: 100%;
 }
 h1{
     color:rgb(240, 240, 248);
     text-align: center;
-    font-size: 100;
+    font-size: 150px;
     background-color: rgb(8, 168, 115);
     margin: 0%;
     padding: 20px;
 }
-h2 {
-    color: brown;
-    text-align: center;
-    margin: 5px;
-}
-img {
-    text-align: center;
-}
+
+
 .img1 {
-    padding: 10;
-    text-align: center;
-    margin-bottom: 0%;
+    width: 300px; /* Ancho del contenedor */
+    height: 300px; /* Alto del contenedor */
+    border-radius: 50%; /* Hace que los bordes sean circulares */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
+    display: flex; /* Para centrar la imagen */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
 }
 
+.img1 img {
+    width: 100%; /* La imagen ocupará todo el contenedor */
+    height: 100%; /* Asegura que la imagen llene el contenedor */
+    object-fit: cover; /* Cubre todo el contenedor sin distorsionar la imagen */
+}
 .cajas {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-auto-rows: auto auto 20px 20px;
-    height: 100vh;
+    height: 80vh;
    
 }
 .left{
+    display: flex;
+    justify-content: center;
     background-color: rgb(8, 168, 115);
     place-items: center;
     text-align: center;
     border: 3px double;
 }
 .right {
-    background-color: rgb(229, 228, 128);
+    background-color: rgb(133, 192, 106);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
     }
 
+    .oleo-script-regular {
+        font-family: "Oleo Script", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+      }
+      
+      .oleo-script-bold {
+        font-family: "Oleo Script", system-ui;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 25px;
+      }
+
+#titulo { font-size: 60px;
+
+}
+      
