@@ -15,11 +15,11 @@ h1{
 .img1 {
     width: 300px; /* Ancho del contenedor */
     height: 300px; /* Alto del contenedor */
-    border-radius: 50%; /* Hace que los bordes sean circulares */
-    overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
-    display: flex; /* Para centrar la imagen */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
+    border-radius: 50%; 
+    overflow: hidden; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 .img1 img {
